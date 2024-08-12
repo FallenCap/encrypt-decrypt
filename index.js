@@ -2,7 +2,7 @@ const crypto = require("crypto");
 const fs = require("fs");
 
 let output = fs.readFileSync('./output.txt', { encoding: 'utf8' });
-const token = "fq2mPLrFg5JJOfRotN52NsOJDPaEDgjZU5Ku4SHpvKWHQWXyoMlNLkA7m73I0DZ1w9pHzMPdIGdqHDeZZsecHY8rn8glM2NHPOBjRwl9558ffgv29Ssu6Dwb8mciHH9U51LsB8QU8PG5QSSacaXbORgVMBFdiYkIyu7gffrAFuzztU47CXBrTc6YxLCFoiucaPAldhXr4Jl1SG8lryBVs1M31hsD7u7NU6pK01mZPS183lz7SVGhnMNBHJQh2dea";
+const token = "zPDvm4RPnjugWJZEvMp6nE33cZNkeVmx8JKkjZ4ZQLrybqaWI4mBH0sY5dH63lJnbf2iU0VLcy51mm06t6gsr234vyMbyviIgBge1y2d2AGavftkMCrb8H8St5InMOQEZiLLGgqugRaEDvOi6YUUiytRxQP3AXXiboX6gNPMkxzPXOfdS8TLqGPR2kFdSK9ODmJGVgd9HuHTojP41lfYYHWnAbeuTAigaUGSJPsVSv8VMUN2fq3AX7PQZMKSIl6z";
 const keyPass = token.slice(0, 16);
 const method = "aes-128-cbc";
 
